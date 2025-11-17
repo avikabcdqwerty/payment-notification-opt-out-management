@@ -1,0 +1,82 @@
+# Node.js & TypeScript
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+*.tsbuildinfo
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/.eslintcache
+
+# Jest
+coverage/
+*.lcov
+
+# ESLint/Prettier
+.eslintcache
+.prettiercache
+
+# PostgreSQL
+*.pgsql
+*.psql
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+
+# Docker
+**/.docker/
+**/docker-compose.override.yml
+**/Dockerfile.*
+**/docker-compose.*.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# CI/CD
+.github/workflows/*.secrets
+!.github/
+!.github/workflows/
+
+# Misc
+.idea/
+.vscode/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Ignore test output
+backend/tests/output/
+frontend/tests/output/
